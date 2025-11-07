@@ -37,12 +37,12 @@ It is **not guaranteed** to bypass anti-bot checks or work with all game version
    #after that
    pip install pyautogui
 
-Edit the main bot file to adjust settings:
+2. Edit the main bot file to adjust settings:
    ```bash
    INFINITE_ATTACKS = False   # True for infinite attacks
    NUM_ATTACKS = 20           # Number of attacks if INFINITE_ATTACKS = False
-```
-###Running the Bot:
-```bash
+   ```
+3. ###Running the Bot:
+   ```bash
    python bot.py
-```
+   ```
