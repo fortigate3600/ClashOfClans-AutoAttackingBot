@@ -25,16 +25,15 @@ It is **not guaranteed** to bypass anti-bot checks or work with all game version
    # Create the virtual environment
    python -m venv cocvenv
 
+   #activate it:
    # Windows (PowerShell)
    .\cocvenv\Scripts\Activate.ps1
-
    # Windows (cmd)
    .\cocvenv\Scripts\activate.bat
-
    # Linux / macOS
    source cocvenv/bin/activate
 
-   #after that
+   #and then
    pip install pyautogui
 
 2. Edit the main bot file to adjust settings:
