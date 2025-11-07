@@ -7,8 +7,8 @@
 ---
 
 ## 📖 Description
-This project implements a simple bot that automates attacks in *Clash of Clans* using the **pyautogui** library to simulate keyboard and mouse input.  
-It is **not guaranteed** to bypass anti-bot checks or work with all game versions.
+This project implements a very-simple-stupid bot that automates attacks in *Clash of Clans* using the **pyautogui**.  
+In case you missed it is **not guaranteed** to bypass anti-bot checks or work with all game versions.
 
 ---
 
