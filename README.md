@@ -34,13 +34,13 @@ It is **not guaranteed** to bypass anti-bot checks or work with all game version
    # Linux / macOS
    source cocvenv/bin/activate
 
-# Windows (PowerShell)
+### Windows (PowerShell)
 .\cocvenv\Scripts\Activate.ps1
 
-# Windows (cmd)
+### Windows (cmd)
 .\cocvenv\Scripts\activate.bat
 
-# Linux / macOS
+### Linux / macOS
 source cocvenv/bin/activate
 
 pip install pyautogui
