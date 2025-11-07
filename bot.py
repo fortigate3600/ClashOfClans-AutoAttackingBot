@@ -3,6 +3,8 @@ import pytesseract
 import time
 import random
 
+INFINITE_ATTACKS = False
+NUM_ATTACKS = 20
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\feder\Desktop\venvClash\Tesseract-OCR\tesseract.exe'
 
 
@@ -87,9 +89,6 @@ def end_atk():
     return 0
 
 if __name__ == "__main__":
-    INFINITE_ATTACKS = False
-    NUM_ATTACKS = 20
-
     #time.sleep(4)
     count = 0
     while INFINITE_ATTACKS or count < NUM_ATTACKS:
@@ -103,4 +102,5 @@ if __name__ == "__main__":
         end_atk()
 
         cont+=1
+
 
