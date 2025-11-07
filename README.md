@@ -40,6 +40,9 @@ In case you missed it is **not guaranteed** to bypass anti-bot checks or work wi
    ```bash
    INFINITE_ATTACKS = False   # True for infinite attacks
    NUM_ATTACKS = 20           # Number of attacks if INFINITE_ATTACKS = False
+
+   also this can be different
+   pytesseract.pytesseract.tesseract_cmd
    ```
 3. ###Running the Bot:
    ```bash
