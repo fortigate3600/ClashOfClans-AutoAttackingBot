@@ -34,22 +34,15 @@ It is **not guaranteed** to bypass anti-bot checks or work with all game version
    # Linux / macOS
    source cocvenv/bin/activate
 
-### Windows (PowerShell)
-.\cocvenv\Scripts\Activate.ps1
-
-### Windows (cmd)
-.\cocvenv\Scripts\activate.bat
-
-### Linux / macOS
-source cocvenv/bin/activate
-
-pip install pyautogui
-
+   #after that
+   pip install pyautogui
 
 Edit the main bot file to adjust settings:
-
-INFINITE_ATTACKS = False   # True for infinite attacks
-NUM_ATTACKS = 20           # Number of attacks if INFINITE_ATTACKS = False
-
-Running the Bot
-python bot.py
+   ```bash
+   INFINITE_ATTACKS = False   # True for infinite attacks
+   NUM_ATTACKS = 20           # Number of attacks if INFINITE_ATTACKS = False
+```
+###Running the Bot:
+```bash
+   python bot.py
+```
