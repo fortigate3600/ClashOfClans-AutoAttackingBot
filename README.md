@@ -30,7 +30,7 @@ It is **not guaranteed** to bypass anti-bot checks or work with all game version
    .\cocvenv\Scripts\Activate.ps1
    # Windows (cmd)
    .\cocvenv\Scripts\activate.bat
-   # Linux / macOS
+   # Linux / macOS (not even sure if it is possibile to install clash on linux)
    source cocvenv/bin/activate
 
    #and then
