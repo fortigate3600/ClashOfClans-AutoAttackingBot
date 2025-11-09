@@ -3,8 +3,11 @@ import pytesseract
 import time
 import random
 
-INFINITE_ATTACKS = False
+
+INFINITE_ATTACKS = True
 NUM_ATTACKS = 20
+RESOURCES_TARGET = 700000
+
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\feder\Desktop\venvClash\Tesseract-OCR\tesseract.exe'
 
 
@@ -23,7 +26,7 @@ def check_and_skip():
         except (ValueError, IndexError):
             pass
         try:
-            if int(lines[0][0])>7 or int(lines[1][0])>7:
+            if int(lines[0][0])>int(str(RESOURCES_TARGET)[0]) or int(lines[1][0])>int(str(RESOURCES_TARGET)[0]):
                 break
         except (ValueError, IndexError):
             pass
@@ -89,9 +92,10 @@ def end_atk():
     return 0
 
 if __name__ == "__main__":
+
     #time.sleep(4)
-    count = 0
-    while INFINITE_ATTACKS or count < NUM_ATTACKS:
+    cont = 0
+    while INFINITE_ATTACKS or cont < NUM_ATTACKS:
 
         time.sleep(4)
         start_atk()
@@ -102,5 +106,4 @@ if __name__ == "__main__":
         end_atk()
 
         cont+=1
-
 
